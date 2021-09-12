@@ -1,0 +1,27 @@
+node_modules/
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+build/Release
+
+# Optional npm cache directory
+.npm
+
+# dotenv environment variables file
+.env
+
+# gatsby files
+.cache/
+public
+
+# IDE specific
+.idea/
+.vscode/
+*.sw*
