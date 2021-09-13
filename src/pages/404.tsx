@@ -1,5 +1,5 @@
-import * as React from "react"
-import { Link } from "gatsby"
+import React from 'react';
+import { Link } from "gatsby";
 
 // styles
 const pageStyles = {
@@ -24,7 +24,6 @@ const codeStyles = {
   borderRadius: 4,
 }
 
-// markup
 const NotFoundPage = () => {
   return (
     <main style={pageStyles}>
