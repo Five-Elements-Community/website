@@ -8,11 +8,7 @@ const IndexPage = () => (
   <Layout>
     <section id="intro" className="pt-20 md:pt-40">
       <div className="container mx-auto px-8 lg:flex">
-        <div className="text-center lg:text-left lg:w-1/2">          
-          <p className="text-xl lg:text-2xl mt-6 font-light">
-            <Introduction/>
-          </p>
-        </div>        
+        <Introduction/>
       </div>
     </section>
     <section id="buy" className="pt-20 md:pt-40">
