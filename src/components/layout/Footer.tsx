@@ -18,7 +18,7 @@ const Footer = () => (
         </ul>
       </div>
       <div className="flex-1 px-3">
-        <h2 className="text-lg font-semibold">Community</h2>
+        <h2 className="text-lg font-semibold">Join the Community</h2>
         <ul className="mt-4 leading-loose">
           <li>
             <a className="social-media-li" href="/">

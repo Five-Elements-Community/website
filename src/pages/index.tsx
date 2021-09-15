@@ -6,20 +6,14 @@ import Layout from '../components/layout/Layout';
 
 const IndexPage = () => (
   <Layout>
-    <section id="intro" className="pt-20 md:pt-40">
-      <div className="container mx-auto px-8 lg:flex">
-        <Introduction/>
-      </div>
+    <section id="intro" >      
+      <Introduction/>
     </section>
-    <section id="buy" className="pt-20 md:pt-40">
-      <div className="container mx-auto px-8 lg:flex">       
-        <Buy/>                
-      </div>
+    <section id="buy" >    
+      <Buy/>                      
     </section>
-    <section id="ecosystem" className="pt-20 md:pt-40">
-      <div className="container mx-auto px-8 lg:flex">        
-        <EcoSystem/>
-      </div>
+    <section id="ecosystem" >          
+      <EcoSystem/>     
     </section>
   </Layout>  
 );

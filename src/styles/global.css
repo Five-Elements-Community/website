@@ -2,6 +2,48 @@
 @tailwind components;
 @tailwind utilities;
 
+.intro-background {
+	background-image: radial-gradient(50% 176%, #024B86 80%, #061922 100%);
+	min-height: 30rem;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-content: center;	
+}
+
+.snow {
+	position: absolute;
+	min-width: 100vw;
+	min-height: 100vh;
+	height: 100%;
+	width: 100%;
+	left: 0;
+}
+
+.snow .svg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#snow-top-layer {
+	will-change: transform;
+	transform: translateY(-768px);
+	animation: fall 22.5s infinite linear;
+}
+
+#snow-bottom-layer {
+	will-change: transform;
+	transform: translateY(-768px);
+	animation: fall 45s infinite linear;
+}
+
+@keyframes fall {	
+	100% {
+		transform: translateY(0);
+	}
+}
+
 .social-media-li {
   width: 80px;
   height: 80px;
@@ -9,13 +51,13 @@
   text-align: center;
   line-height: 80px;
   font-size: 35px;
-  margin: 0 10px;
+  margin: 5px;
   display: block;
   border-radius: 50%;
   position: relative;
   overflow: hidden;
   border: 3px solid #fff;
-  z-index: 1;
+  float: left;
 }
 
 .social-media-li .social-media-icon {
