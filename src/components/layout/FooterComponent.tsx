@@ -3,7 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faTwitter, faDiscord, faTelegram, faReddit } from '@fortawesome/free-brands-svg-icons';
 
 const FooterComponent = () => (
-  <footer className="shadow bg-earth">
+  <div>
+  <footer className="p-20 bg-gradient-to-b from-yellow-400 via-red-500 to-pink-500">
     <div className="flex">
       <div className="flex-1 px-3">
         <h2 className="text-lg font-semibold">About Us</h2>
@@ -24,7 +25,7 @@ const FooterComponent = () => (
         </ul>
       </div>
       <div className="flex-1 px-3">
-        <h2 className="text-lg font-semibold">Join the Community</h2>
+        <h2 className="text-lg font-semibold">Community</h2>
         <ul className="mt-4 leading-loose">
           <li>
             <a className="social-media-li" href="/">
@@ -53,8 +54,13 @@ const FooterComponent = () => (
           </li>
         </ul>
       </div>
-    </div>
-  </footer>
+    </div>   
+  </footer>  
+  <hr/>
+  <div className="text-center text-white bg-black">
+    <p>Copyright &#169; 2021. Five Elements Token</p>
+  </div>
+  </div>
 );
 
 export default FooterComponent;

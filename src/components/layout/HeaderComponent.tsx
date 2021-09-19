@@ -11,8 +11,8 @@ const HeaderComponent = () => (
         <AnchorLink className="px-4 hover:underline" href="#intro">
           Introduction
         </AnchorLink>        
-        <AnchorLink className="px-4 hover:underline" href="#buy">
-          Buy
+        <AnchorLink className="px-4 hover:underline" href="#gettoken">
+          Get token
         </AnchorLink>
         <AnchorLink className="px-4 hover:underline" href="#ecosystem">
           Ecosystem

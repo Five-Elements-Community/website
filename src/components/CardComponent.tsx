@@ -1,11 +1,19 @@
 import React from 'react';
 
-const CardComponent = ({ className, children }) => (
+const CardComponent = ({ children }) => (
   <div
-    className={`p-12 rounded-lg border border-solid border-gray-200 ${className}`}
-    style={{
-      boxShadow: '0 10px 28px rgba(0,0,0,.08)'
-    }}
+    className={`
+    p-12
+    m-5
+    rounded-lg 
+    border 
+    border-solid
+    hover:bg-air
+    hover:text-white
+    hover:shadow-lg
+    hover:border-transparent
+    cursor-wait
+    border-gray-200`}
   >
     {children}
   </div>
