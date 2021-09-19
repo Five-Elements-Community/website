@@ -4,10 +4,10 @@ module.exports = {
   theme: {
     backgroundColor: theme => ({
         ...theme('colors'),
-        'air': '',
-        'fire': '',
+        'air': '#008080',
         'earth': '#806043',
-        'metal': '',
+        'fire': '#F73718',        
+        'metal': '#41474E',
         'water': '#024B86'
     }),
     extend: {},

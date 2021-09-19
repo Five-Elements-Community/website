@@ -1,7 +1,7 @@
 import React from 'react';
-import Card from './Card';
+import Card from './CardComponent';
 
-const Buy = () => (
+const BuyComponent = () => (
   <div className="container mx-auto text-center">
   <h2 className="text-3xl lg:text-5xl font-semibold">Buy five elements token</h2>
   <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
@@ -41,4 +41,4 @@ const Buy = () => (
 </div>
 );
 
-export default Buy;
+export default BuyComponent;

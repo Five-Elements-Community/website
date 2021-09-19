@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Card = ({ className, children }) => (
+const CardComponent = ({ className, children }) => (
   <div
     className={`p-12 rounded-lg border border-solid border-gray-200 ${className}`}
     style={{
@@ -11,4 +11,4 @@ const Card = ({ className, children }) => (
   </div>
 );
 
-export default Card;
+export default CardComponent;
