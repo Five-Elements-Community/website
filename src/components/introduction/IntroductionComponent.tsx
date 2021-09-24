@@ -1,5 +1,5 @@
 import React from 'react';
-import Orb from './OrbComponent';
+import Orb from '../orb/OrbComponent';
 
 const IntroductionComponent = () => (
   <div className="intro-background justify-center items-center flex h-screen">  

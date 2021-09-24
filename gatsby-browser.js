@@ -1,5 +1,5 @@
 import './src/styles/global.scss';
-import './src/styles/footer.scss';
-import './src/styles/orb.scss';
-import './src/styles/introduction.scss';
-import './src/styles/getToken.scss';
+import './src/components/layout/footer.scss';
+import './src/components/orb/orb.scss';
+import './src/components/introduction/introduction.scss';
+import './src/components/gettoken/getToken.scss';

@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from './CardComponent';
+import Card from '../card/CardComponent';
 
 const EcoSystemComponent = () => (  
   <div className="container text-center">

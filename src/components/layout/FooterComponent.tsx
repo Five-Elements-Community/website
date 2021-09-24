@@ -28,27 +28,27 @@ const FooterComponent = () => (
         <h2 className="text-lg font-semibold">Community</h2>
         <ul className="mt-4 leading-loose">
           <li>
-            <a className="social-media-li" href="/">
+            <a className="social-media-li hover:shadow-lg hover:border-transparent" href="/">
               <FontAwesomeIcon icon={faTwitter} className="social-media-icon" />              
             </a>
           </li> 
           <li>          
-            <a className="social-media-li" href="/">
+            <a className="social-media-li hover:shadow-lg hover:border-transparent" href="/">
               <FontAwesomeIcon icon={faReddit} className="social-media-icon" />
             </a>
           </li>
           <li>
-            <a className="social-media-li" href="/">
+            <a className="social-media-li hover:shadow-lg hover:border-transparent" href="/">
               <FontAwesomeIcon icon={faTelegram} className="social-media-icon" />
             </a>
           </li>    
           <li>
-            <a className="social-media-li" href="/">
+            <a className="social-media-li hover:shadow-lg hover:border-transparent" href="/">
               <FontAwesomeIcon icon={faDiscord} className="social-media-icon" />
             </a>
           </li>
           <li>          
-            <a className="social-media-li" href="/">
+            <a className="social-media-li hover:shadow-lg hover:border-transparent" href="/">
               <FontAwesomeIcon icon={faGithub} className="social-media-icon" />
             </a>
           </li>

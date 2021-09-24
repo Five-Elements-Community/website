@@ -1,8 +1,8 @@
 import React from 'react';
-import GetTokenComponent from '../components/GetTokenComponent';
-import CommunityComponent from '../components/CommunityComponent';
-import EcoSystem from '../components/EcoSystemComponent';
-import Introduction from '../components/IntroductionComponent';
+import GetTokenComponent from '../components/gettoken/GetTokenComponent';
+import CommunityComponent from '../components/community/CommunityComponent';
+import EcoSystem from '../components/ecosystem/EcoSystemComponent';
+import Introduction from '../components/introduction/IntroductionComponent';
 import Layout from '../components/layout/LayoutComponent';
 
 const IndexPage = () => (

@@ -1,0 +1,47 @@
+@import '../../styles/constants.scss';
+
+.social-media-li {
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  font-size: 35px;
+  margin: 5px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  float: left;
+}
+
+.social-media-icon {
+  position: relative;
+  transition: .5s;
+}
+
+.social-media-li:hover .social-media-icon {  
+  transform: rotateY(360deg);  
+}
+
+ul li:nth-child(1) a {
+  color: #fff;
+  background: $twitter-hex-color-code;
+}
+
+ul li:nth-child(2) a {
+  color: #fff;
+  background: $reddit-hex-color-code;
+}
+
+ul li:nth-child(3) a {
+  color: #fff;
+  background: $telegram-hex-color-code;
+}
+
+ul li:nth-child(4) a {
+  color: #fff;
+  background: $discord-hex-color-code;
+}
+
+ul li:nth-child(5) a {
+  color: #fff;
+  background: $github-hex-color-code;
+}
