@@ -1,10 +1,10 @@
 import React from 'react';
 import Card from '../card/CardComponent';
 
-const GetTokenComponent = () => (
+const GetTokenComponent: React.FunctionComponent = () => (
   <div className="container text-center ">
-  <h2 className="lg:text-5xl font-semibold">Get five elements token</h2>
-    <div className="flex items-center">      
+    <h2 className="lg:text-5xl font-semibold">Get five elements token</h2>
+    <div className="flex items-center">
       <Card>
         <p className="font-semibold text-xl">Sunday swap</p>
         <p className="mt-4">Rest needed</p>
@@ -12,7 +12,7 @@ const GetTokenComponent = () => (
       <Card>
         <p className="font-semibold text-xl">Rainy day swap</p>
         <p className="mt-4">Umbrella needed</p>
-      </Card>  
+      </Card>
       <Card>
         <p className="font-semibold text-xl">Hot day swap</p>
         <p className="mt-4">Suncreme needed</p>

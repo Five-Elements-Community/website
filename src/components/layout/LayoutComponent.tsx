@@ -2,7 +2,7 @@ import React from 'react';
 import Footer from './FooterComponent';
 import Header from './HeaderComponent';
 
-const LayoutComponent = ({ children }) => {
+const LayoutComponent: React.FunctionComponent = ({ children }) => {
   return (
     <>
       <Header />

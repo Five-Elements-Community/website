@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CardComponent = ({ children }) => (
+const CardComponent: React.FunctionComponent = ({ children }) => (
   <div
     className={`
     p-12

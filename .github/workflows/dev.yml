@@ -1,0 +1,41 @@
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+        with:
+          node-version: '16.x'
+      - name: npm install and build
+        run: |
+          npm install
+          npm run build
+      - name: upload artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: website-public
+          path: public/
+          retention-days: 5
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: download artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: website-public
+          path: public/    
+      - name: deploy
+        uses: garygrossgarten/github-action-scp@v0.7.3
+        with:
+          host: ${{ secrets.DEV_SERVER_IP }}
+          username: ${{ secrets.SSH_USERNAME }}          
+          privateKey: ${{ secrets.SSH_PRIVATE_KEY }} 
+          local: 'public'
+          remote: ${{ secrets.REMOTE_PATH }}
+          rmRemote: true
