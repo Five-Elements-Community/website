@@ -1,7 +1,7 @@
-name: DEV - Build and deploy on the development environment
+name: Release - Build and deploy on the production environment
 on:
-  push:
-    branches: [ main ]
+  release:
+    types: [published]
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -32,8 +32,8 @@ jobs:
       - name: deploy
         uses: garygrossgarten/github-action-scp@v0.7.3
         with:
-          host: ${{ secrets.DEV_SERVER_IP }}
-          username: ${{ secrets.SSH_USERNAME }}
+          host: ${{ secrets.PROD_SERVER_IP }}
+          username: ${{ secrets.SSH_USERNAME }}    
           privateKey: ${{ secrets.SSH_PRIVATE_KEY }}
           local: 'public'
           remote: ${{ secrets.REMOTE_PATH }}
