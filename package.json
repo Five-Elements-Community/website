@@ -21,17 +21,11 @@
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@fortawesome/react-fontawesome": "^0.1.15",
-    "autoprefixer": "^10.3.4",
     "gatsby": "^3.13.0",
-    "gatsby-plugin-fontawesome-css": "^1.1.0",
-    "gatsby-plugin-postcss": "^4.13.0",
-    "gatsby-plugin-sass": "^4.14.0",
-    "postcss": "^8.3.6",
     "react": "^17.0.1",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^17.0.1",
-    "sass": "^1.41.1",
-    "tailwindcss": "^2.2.15"
+    "sass": "^1.41.1"
   },
   "devDependencies": {
     "@types/node": "^16.10.1",
@@ -41,12 +35,18 @@
     "@types/typography": "^0.16.4",
     "@typescript-eslint/eslint-plugin": "^4.31.2",
     "@typescript-eslint/parser": "^4.31.2",
+    "autoprefixer": "^10.3.6",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
+    "gatsby-plugin-fontawesome-css": "^1.1.0",
+    "gatsby-plugin-postcss": "^4.14.0",
+    "gatsby-plugin-sass": "^4.14.0",
     "gatsby-plugin-typescript": "^3.14.0",
+    "postcss": "^8.3.8",
     "prettier": "^2.4.1",
     "source-map-support": "^0.5.20",
+    "tailwindcss": "^2.2.16",
     "ts-node": "^10.2.1",
     "typescript": "^4.4.3"
   }

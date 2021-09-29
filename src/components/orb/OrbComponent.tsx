@@ -1,4 +1,5 @@
 import React from 'react';
+import './orb.scss'
 
 const OrbComponent: React.FunctionComponent = () => {
   const particles = [];

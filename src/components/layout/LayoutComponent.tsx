@@ -6,7 +6,7 @@ const LayoutComponent: React.FunctionComponent = ({ children }) => {
   return (
     <>
       <Header />
-      <main className="text-gray-900">{children}</main>
+        <main className="text-gray-900">{children}</main>
       <Footer />
     </>
   );

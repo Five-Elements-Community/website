@@ -1,4 +1,5 @@
 import React from 'react';
+import './introduction.scss'
 import Orb from '../orb/OrbComponent';
 
 const IntroductionComponent: React.FunctionComponent = () => (

@@ -1,3 +1,5 @@
+@use "sass:math";
+
 $total-particles: 500;
 $orb-size: 40vh;
 $particle-size: 3px;
@@ -15,7 +17,7 @@ $base-hue: 180;
   width: $particle-size;
   height: $particle-size;
   border-radius: 50%;
-  opacity: 0; 
+  opacity: 0;
 }
 
 @keyframes rotate {
@@ -28,7 +30,7 @@ $base-hue: 180;
   $z: (random(360) * 1deg);
   $y: (random(360) * 1deg);
   
-  $hue: ((40/$total-particles * $i) + $base-hue);
+  $hue: ((math.div(40, $total-particles) * $i) + $base-hue);
   
   .particle:nth-child(#{$i}) {
     animation: orbit#{$i} $time infinite;

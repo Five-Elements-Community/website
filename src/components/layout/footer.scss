@@ -1,5 +1,3 @@
-@import '../../styles/constants.scss';
-
 .social-media-li {
   width: 80px;
   height: 80px;
@@ -19,28 +17,4 @@
 
 .social-media-li:hover .social-media-icon {  
   transform: rotateY(360deg);  
-}
-
-ul li:nth-child(1) a {
-  color: #fff;
-  background: $twitter-hex-color-code;
-}
-
-ul li:nth-child(2) a {
-  color: #fff;
-  background: $reddit-hex-color-code;
-}
-
-ul li:nth-child(3) a {
-  background: $telegram-hex-color-code;
-}
-
-ul li:nth-child(4) a {
-  color: #fff;
-  background: $discord-hex-color-code;
-}
-
-ul li:nth-child(5) a {
-  color: #fff;
-  background: $github-hex-color-code;
 }

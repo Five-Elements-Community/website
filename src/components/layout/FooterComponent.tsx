@@ -1,10 +1,11 @@
 import React from 'react';
+import '../layout/footer.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faTwitter, faDiscord, faTelegram, faReddit } from '@fortawesome/free-brands-svg-icons';
 
 const FooterComponent: React.FunctionComponent = () => (
   <div>
-    <footer className="p-20 bg-gradient-to-b from-yellow-400 via-red-500 to-pink-500">
+    <footer className="p-20">
       <div className="flex">
         <div className="flex-1 px-3">
           <h2 className="text-lg font-semibold">About Us</h2>
@@ -28,27 +29,27 @@ const FooterComponent: React.FunctionComponent = () => (
           <h2 className="text-lg font-semibold">Community</h2>
           <ul className="mt-4 leading-loose">
             <li>
-              <a className="social-media-li hover:shadow-lg hover:border-transparent" href="/">
+              <a className="social-media-li hover:shadow-lg hover:border-transparent bg-twitter text-white" href="/">
                 <FontAwesomeIcon icon={faTwitter} className="social-media-icon" />
               </a>
             </li>
             <li>
-              <a className="social-media-li hover:shadow-lg hover:border-transparent" href="/">
+              <a className="social-media-li hover:shadow-lg hover:border-transparent bg-reddit text-white" href="/">
                 <FontAwesomeIcon icon={faReddit} className="social-media-icon" />
               </a>
             </li>
             <li>
-              <a className="social-media-li hover:shadow-lg hover:border-transparent" href="/">
+              <a className="social-media-li hover:shadow-lg hover:border-transparent bg-telegram text-white" href="/">
                 <FontAwesomeIcon icon={faTelegram} className="social-media-icon" />
               </a>
             </li>
             <li>
-              <a className="social-media-li hover:shadow-lg hover:border-transparent" href="/">
+              <a className="social-media-li hover:shadow-lg hover:border-transparent bg-discord text-white" href="/">
                 <FontAwesomeIcon icon={faDiscord} className="social-media-icon" />
               </a>
             </li>
             <li>
-              <a className="social-media-li hover:shadow-lg hover:border-transparent" href="/">
+              <a className="social-media-li hover:shadow-lg hover:border-transparent bg-github text-white" href="/">
                 <FontAwesomeIcon icon={faGithub} className="social-media-icon" />
               </a>
             </li>
