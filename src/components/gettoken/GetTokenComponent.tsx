@@ -3,12 +3,12 @@ import Card from '../card/CardComponent';
 import './getToken.scss'
 
 const GetTokenComponent: React.FunctionComponent = () => (
-  <div className="container text-center ">
-    <h2 className="lg:text-5xl font-semibold">Get five elements token</h2>
-    <div className="flex items-center">
+  <div className="my-12 px-4 md:px-12">
+    <h1 className="text-5xl font-semibold text-center my-12">Get five elements token</h1>
+    <div className="flex flex-wrap -mx-1 lg:-mx-4">
       <Card>
-        <img className="w-full" src="" alt="" />
-        <div className="px-6 py-4">
+        <img className="" src="" alt="" />
+        <div>
           <div className="font-bold text-xl mb-2">Sundae swap</div>
           <p className="text-gray-700 text-base">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!

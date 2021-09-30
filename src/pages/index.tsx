@@ -10,13 +10,13 @@ const IndexPage: React.FunctionComponent = () => (
     <section id="intro">
       <Introduction />
     </section>
-    <section id="gettoken" className="p-20">
+    <section id="gettoken" className="container bg-water p-20">
       <GetTokenComponent />
     </section>
-    <section id="ecosystem" className="p-20">
+    <section id="ecosystem" className="container bg-air p-20">
       <EcoSystem />
     </section>
-    <section id="community" className="p-20">
+    <section id="community" className="container bg-fire p-20">
       <CommunityComponent />
     </section>
   </Layout>

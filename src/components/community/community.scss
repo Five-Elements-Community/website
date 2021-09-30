@@ -1,0 +1,20 @@
+.social-media-li {
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  font-size: 35px;
+  margin: 5px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  float: left;
+}
+
+.social-media-icon {
+  position: relative;
+  transition: .5s;
+}
+
+.social-media-li:hover .social-media-icon {  
+  transform: rotateY(360deg);  
+}

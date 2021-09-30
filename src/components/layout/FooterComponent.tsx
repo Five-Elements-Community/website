@@ -29,27 +29,27 @@ const FooterComponent: React.FunctionComponent = () => (
           <h2 className="text-lg font-semibold">Community</h2>
           <ul className="mt-4 leading-loose">
             <li>
-              <a className="social-media-li hover:shadow-lg hover:border-transparent bg-twitter text-white" href="/">
-                <FontAwesomeIcon icon={faTwitter} className="social-media-icon" />
+              <a className="" href="/">
+                <FontAwesomeIcon icon={faTwitter} className="" />
               </a>
             </li>
             <li>
-              <a className="social-media-li hover:shadow-lg hover:border-transparent bg-reddit text-white" href="/">
+              <a className="" href="/">
                 <FontAwesomeIcon icon={faReddit} className="social-media-icon" />
               </a>
             </li>
             <li>
-              <a className="social-media-li hover:shadow-lg hover:border-transparent bg-telegram text-white" href="/">
+              <a className="" href="/">
                 <FontAwesomeIcon icon={faTelegram} className="social-media-icon" />
               </a>
             </li>
             <li>
-              <a className="social-media-li hover:shadow-lg hover:border-transparent bg-discord text-white" href="/">
+              <a className="" href="/">
                 <FontAwesomeIcon icon={faDiscord} className="social-media-icon" />
               </a>
             </li>
             <li>
-              <a className="social-media-li hover:shadow-lg hover:border-transparent bg-github text-white" href="/">
+              <a className="" href="/">
                 <FontAwesomeIcon icon={faGithub} className="social-media-icon" />
               </a>
             </li>
@@ -57,7 +57,6 @@ const FooterComponent: React.FunctionComponent = () => (
         </div>
       </div>
     </footer>
-    <hr />
     <div className="text-center text-white bg-black">
       <p>Copyright &#169; 2021. Five Elements Token</p>
     </div>

@@ -3,10 +3,10 @@ import './introduction.scss'
 import Orb from '../orb/OrbComponent';
 
 const IntroductionComponent: React.FunctionComponent = () => (
-  <div className="intro-background justify-center items-center flex h-screen">
+  <div className="container intro-background justify-center items-center flex h-screen">
     <Orb />
-    <div className="flex-column text-white">
-      <h1 className="lg:text-5xl font-semibold">
+    <div className="text-white">
+      <h1 className="text-5xl font-semibold">
         The five elements <br />
         cardano token!
       </h1>
