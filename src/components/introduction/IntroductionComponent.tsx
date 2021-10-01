@@ -1,9 +1,9 @@
 import React from 'react';
-import './introduction.scss'
+import './introduction.scss';
 import Orb from '../orb/OrbComponent';
 
 const IntroductionComponent: React.FunctionComponent = () => (
-  <div className="container intro-background justify-center items-center flex h-screen">
+  <div className="flex bg-black intro-background justify-center items-center h-screen p-10">
     <Orb />
     <div className="text-white">
       <h1 className="text-5xl font-semibold">

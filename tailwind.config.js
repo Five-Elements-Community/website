@@ -2,11 +2,23 @@ const colors = require('tailwindcss/colors')
 
 module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}'],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: false,
+  corePlugins: {
+    container: false
+  },
+  plugins: [
+    function ({ addComponents }) {
+      addComponents({
+        '.container': {
+          maxWidth: '100%',
+          '@screen xl': {
+            maxWidth: '1280px',
+          }
+        }
+      })
+    }
+  ],
   theme: {
-    container: {
-      center: true,
-    },
     backgroundColor: theme => ({
       ...theme('colors'),
       'air': '#008080',
@@ -24,6 +36,5 @@ module.exports = {
   },
   variants: {
     extend: {},
-  },
-  plugins: [],
+  }
 }

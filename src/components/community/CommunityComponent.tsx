@@ -1,13 +1,13 @@
 import React from 'react';
-import './community.scss'
+import './community.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faTwitter, faDiscord, faTelegram, faReddit } from '@fortawesome/free-brands-svg-icons';
 
 const CommunityComponent: React.FunctionComponent = () => (
-  <div className="container">
+  <div className="container mx-auto p-12">
     <p>Social</p>
-    <hr/>
-    <h1 className="text-5xl font-semibold text-center my-12">Join the Community</h1>
+    <hr className="progress" />
+    <h1 className="text-5xl font-semibold text-center my-10">Join the Community</h1>
     <div className="">
       <ul className="flex flex-row flex-wrap justify-center">
         <li>

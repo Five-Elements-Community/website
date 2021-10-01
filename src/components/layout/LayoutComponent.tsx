@@ -4,11 +4,11 @@ import Header from './HeaderComponent';
 
 const LayoutComponent: React.FunctionComponent = ({ children }) => {
   return (
-    <>
+    <div className="">
       <Header />
-        <main className="bg-earth">{children}</main>
+      <main>{children}</main>
       <Footer />
-    </>
+    </div>
   );
 };
 
