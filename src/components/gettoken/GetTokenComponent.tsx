@@ -5,7 +5,7 @@ import './getToken.scss';
 const GetTokenComponent: React.FunctionComponent = () => (
   <div className="getTokenBackground">
     <div className="container mx-auto p-12 text-white">
-      <h1 className="text-5xl font-semibold text-center m-10 ">Get five elements token</h1>
+      <h1 className="font-semibold text-center my-10 text-4xl sm:text-5xl">Get five elements token</h1>
       <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-4">
         <Card cardClass="cardSundaeBackround" layerClass="layerSundaeBackground">
           <p className="font-bold text-xl">Sundae swap</p>

@@ -7,7 +7,7 @@ const IntroductionComponent: React.FunctionComponent = () => (
     <div className="container mx-auto flex overflow-hidden justify-center items-center h-screen px-10">
       <Orb />
       <div className="text-white">
-        <h1 className="text-5xl font-semibold">
+        <h1 className="text-4xl sm:text-5xl font-semibold">
           The five elements <br />
           cardano token!
         </h1>
