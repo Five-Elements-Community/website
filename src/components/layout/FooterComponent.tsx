@@ -5,7 +5,7 @@ import { TwitterComponent, RedditComponent, TelegramComponent, DiscordComponent,
 const FooterComponent: React.FunctionComponent = () => (
   <footer className="svgTest p-10 text-white">
     <div className="container mx-auto">
-      <aside className="flex flex-wrap items-center my-10 sm:justify-between">
+      <aside className="flex flex-wrap items-center my-10 justify-center sm:justify-between">
         <div>
 
           <p>

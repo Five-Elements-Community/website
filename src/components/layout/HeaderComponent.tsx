@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const HeaderComponent: React.FunctionComponent = () => {
-  const [isMenuHidden, setMenuHidden] = useState(false);
+  const [isMenuHidden, setMenuHidden] = useState(true);
 
   return (
     <header className="sticky top-0 z-10 bg-black">
