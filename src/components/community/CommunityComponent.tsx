@@ -1,41 +1,40 @@
 import React from 'react';
 import './community.scss';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faTwitter, faDiscord, faTelegram, faReddit } from '@fortawesome/free-brands-svg-icons';
+import { TwitterComponent, RedditComponent, TelegramComponent, DiscordComponent, GithubComponent } from '../social-media/SocialMediaComponents';
 
 const CommunityComponent: React.FunctionComponent = () => (
-  <div className="container mx-auto p-12">
-    <p>Social</p>
-    <hr className="progress" />
-    <h1 className="text-5xl font-semibold text-center my-10">Join the Community</h1>
-    <div className="">
-      <ul className="flex flex-row flex-wrap justify-center">
-        <li>
-          <a className="social-media-li hover:shadow-lg hover:border-transparent bg-twitter text-white" href="/">
-            <FontAwesomeIcon icon={faTwitter} className="social-media-icon" />
-          </a>
-        </li>
-        <li>
-          <a className="social-media-li hover:shadow-lg hover:border-transparent bg-reddit text-white" href="/">
-            <FontAwesomeIcon icon={faReddit} className="social-media-icon" />
-          </a>
-        </li>
-        <li>
-          <a className="social-media-li hover:shadow-lg hover:border-transparent bg-telegram text-white" href="/">
-            <FontAwesomeIcon icon={faTelegram} className="social-media-icon" />
-          </a>
-        </li>
-        <li>
-          <a className="social-media-li hover:shadow-lg hover:border-transparent bg-discord text-white" href="/">
-            <FontAwesomeIcon icon={faDiscord} className="social-media-icon" />
-          </a>
-        </li>
-        <li>
-          <a className="social-media-li hover:shadow-lg hover:border-transparent bg-github text-white" href="/">
-            <FontAwesomeIcon icon={faGithub} className="social-media-icon" />
-          </a>
-        </li>
-      </ul>
+  <div className="communityBackground">  
+    <div className="container mx-auto p-12 text-white">
+      <p>Social</p>
+      <hr className="progress" />
+      <h1 className="text-5xl font-semibold text-center my-10">Join the Community</h1>    
+        <ul className="flex flex-wrap justify-center space-x-4">
+          <li>
+            <TwitterComponent
+              aClasses="social-media-a hover:shadow-lg hover:border-transparent bg-twitter text-white" 
+              iconClasses="social-media-icon"/>  
+          </li>
+          <li>
+            <RedditComponent
+              aClasses="social-media-a hover:shadow-lg hover:border-transparent bg-reddit text-white" 
+              iconClasses="social-media-icon"/>             
+          </li>
+          <li>
+            <TelegramComponent
+              aClasses="social-media-a hover:shadow-lg hover:border-transparent bg-telegram text-white" 
+              iconClasses="social-media-icon"/>
+          </li>
+          <li>
+            <DiscordComponent
+              aClasses="social-media-a hover:shadow-lg hover:border-transparent bg-discord text-white" 
+              iconClasses="social-media-icon"/>
+          </li>
+          <li>
+            <GithubComponent
+              aClasses="social-media-a hover:shadow-lg hover:border-transparent bg-github text-white" 
+              iconClasses="social-media-icon"/>
+          </li>
+        </ul>
     </div>
   </div>
 );

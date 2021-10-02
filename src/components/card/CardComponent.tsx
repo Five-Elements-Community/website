@@ -1,8 +1,17 @@
 import React from 'react';
+import './card.scss';
 
-const CardComponent: React.FunctionComponent = ({ children }) => (
-  <div className={`cursor-pointer`}>
-    <div className="border-1 rounded-lg shadow-lg text-center p-10">{children}</div>
+type CardProps = {
+  cardClass:string;
+  layerClass:string;  
+}
+
+const CardComponent: React.FunctionComponent<CardProps> = ({ cardClass, layerClass, children }) => (
+  <div className={`card cursor-pointer ${cardClass}`}>
+    <div className={`layer ${layerClass}`}></div>
+    <div className="content">
+      {children}
+    </div>    
   </div>
 );
 
