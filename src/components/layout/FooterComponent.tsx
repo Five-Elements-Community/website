@@ -1,12 +1,17 @@
 import React from 'react';
-import { TwitterComponent, RedditComponent, TelegramComponent, DiscordComponent, GithubComponent } from '../social-media/SocialMediaComponents';
+import {
+  TwitterComponent,
+  RedditComponent,
+  TelegramComponent,
+  DiscordComponent,
+  GithubComponent,
+} from '../social-media/SocialMediaComponents';
 
 const FooterComponent: React.FunctionComponent = () => (
   <footer className="bg-nice-gray text-white">
     <div className="container mx-auto py-12">
       <aside className="flex flex-wrap items-center my-10 justify-center sm:justify-between">
         <div>
-
           <p>
             The Five Elements Token is powered <br />
             by the community.
@@ -15,29 +20,19 @@ const FooterComponent: React.FunctionComponent = () => (
         <div className="mt-5">
           <ul className="flex flex-row space-x-4">
             <li>
-              <TwitterComponent
-                aClasses="" 
-                iconClasses=""/>              
+              <TwitterComponent />
             </li>
             <li>
-              <RedditComponent
-                aClasses="" 
-                iconClasses=""/>
+              <RedditComponent />
             </li>
             <li>
-              <TelegramComponent
-                aClasses="" 
-                iconClasses=""/>
+              <TelegramComponent />
             </li>
             <li>
-              <DiscordComponent
-                aClasses="" 
-                iconClasses=""/>
+              <DiscordComponent />
             </li>
             <li>
-              <GithubComponent
-                aClasses="" 
-                iconClasses=""/>
+              <GithubComponent />
             </li>
           </ul>
         </div>
@@ -46,7 +41,7 @@ const FooterComponent: React.FunctionComponent = () => (
       <div className="mt-10 text-center">
         <p>&#169; 2021 Five Elements Token</p>
       </div>
-    </div>    
+    </div>
   </footer>
 );
 

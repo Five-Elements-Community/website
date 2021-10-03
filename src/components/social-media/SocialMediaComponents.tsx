@@ -3,10 +3,10 @@ import '../social-media/social-media.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faTwitter, faDiscord, faTelegram, faReddit } from '@fortawesome/free-brands-svg-icons';
 
-type SocialMediaProps = {  
-  aClasses:string;
-  iconClasses:string;
-}
+type SocialMediaProps = {
+  aClasses?: string;
+  iconClasses?: string;
+};
 
 const TwitterComponent: React.FunctionComponent<SocialMediaProps> = ({ aClasses, iconClasses }) => (
   <a className={aClasses} target="_blank" rel="noopener noreferrer" href="https://twitter.com/5elementstoken">
