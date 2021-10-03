@@ -5,7 +5,7 @@ const LogoComponent: React.FunctionComponent = () => (
     <img
       src="https://dzqc5mj6l3nh2.cloudfront.net/images/5e-logo-only-gold.png"
       alt="Five Elements Token Logo"
-      className="object-contain h-16 sm:h-24"
+      className="object-contain h-12 sm:h-20"
     />
   </a>
 );
