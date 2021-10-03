@@ -11,7 +11,7 @@ const FooterComponent: React.FunctionComponent = () => (
   <footer className="bg-nice-gray text-white">
     <div className="container mx-auto py-12">
       <aside className="flex flex-wrap items-center my-10 justify-center sm:justify-between">
-        <div>
+        <div>          
           <p>
             The Five Elements Token is powered <br />
             by the community.

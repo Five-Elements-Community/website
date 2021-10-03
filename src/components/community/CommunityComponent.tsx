@@ -12,7 +12,7 @@ const CommunityComponent: React.FunctionComponent = () => (
     <div className="container mx-auto py-12 text-white">
       <p>Social</p>
       <hr className="progress" />
-      <h1 className="font-semibold text-center my-10 text-4xl sm:text-5xl">Join the Community</h1>
+      <h1 className="font-semibold text-center my-10 text-4xl sm:text-5xl text-token">Join the Community</h1>
       <ul className="flex flex-wrap justify-center space-x-4">
         <li>
           <TwitterComponent

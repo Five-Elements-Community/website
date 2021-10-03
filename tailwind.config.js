@@ -1,3 +1,5 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}'],
   darkMode: false,  
@@ -21,10 +23,10 @@ module.exports = {
       }
     },
     fontFamily: {
-      'sans': ['mono', 'sans-serif']
+      'sans': ['monospace', 'sans-serif']
     },
-    backgroundColor: theme => ({
-      ...theme('colors'),
+    colors: {
+      'token': '#C1A53A',
       'air': '#008080',
       'earth': '#806043',
       'fire': '#F73718',        
@@ -36,8 +38,12 @@ module.exports = {
       'telegram': '#0088CC',
       'github': '#333',
       'card-background': '#333',
-      'nice-gray': '#262626'     
-    }),
+      'nice-gray': '#262626',
+      transparent: 'transparent',
+      current: 'currentColor',
+      black: colors.black,
+      white: colors.white,
+    },
     extend: {},
   },
   variants: {
