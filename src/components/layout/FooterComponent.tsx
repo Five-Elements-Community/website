@@ -3,8 +3,8 @@ import '../layout/footer.scss';
 import { TwitterComponent, RedditComponent, TelegramComponent, DiscordComponent, GithubComponent } from '../social-media/SocialMediaComponents';
 
 const FooterComponent: React.FunctionComponent = () => (
-  <footer className="svgTest p-10 text-white">
-    <div className="container mx-auto">
+  <footer className="svgTest text-white">
+    <div className="container mx-auto py-12">
       <aside className="flex flex-wrap items-center my-10 justify-center sm:justify-between">
         <div>
 

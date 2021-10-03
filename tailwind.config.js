@@ -1,11 +1,6 @@
-const colors = require('tailwindcss/colors')
-
 module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}'],
-  darkMode: false,
-  corePlugins: {
-    container: false
-  },
+  darkMode: false,  
   plugins: [
     function ({ addComponents }) {
       addComponents({
@@ -19,6 +14,15 @@ module.exports = {
     }
   ],
   theme: {
+    container: {
+      padding: {
+        DEFAULT: '1rem',
+        sm: '2rem',
+      }
+    },
+    fontFamily: {
+      'sans': ['mono', 'sans-serif']
+    },
     backgroundColor: theme => ({
       ...theme('colors'),
       'air': '#008080',

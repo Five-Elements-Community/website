@@ -4,12 +4,12 @@ import Orb from '../orb/OrbComponent';
 
 const IntroductionComponent: React.FunctionComponent = () => (
   <div className="bg-black">
-    <div className="container mx-auto flex overflow-hidden justify-center items-center h-screen px-10">
+    <div className="container mx-auto flex overflow-hidden justify-center items-center h-screen">
       <Orb />
       <div className="text-white">
-        <h1 className="text-4xl sm:text-5xl font-semibold">
+        <h1 className="text-4xl sm:text-5xl font-semibold mb-10 text-center">
           The five elements <br />
-          cardano token!
+          cardano token
         </h1>
         <p>
           Welcome to the five elements token, it is created by five friends which characters reflect five elements.

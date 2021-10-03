@@ -4,7 +4,7 @@ import { TwitterComponent, RedditComponent, TelegramComponent, DiscordComponent,
 
 const CommunityComponent: React.FunctionComponent = () => (
   <div className="communityBackground">  
-    <div className="container mx-auto p-12 text-white">
+    <div className="container mx-auto py-12 text-white">
       <p>Social</p>
       <hr className="progress" />
       <h1 className="font-semibold text-center my-10 text-4xl sm:text-5xl">Join the Community</h1>    

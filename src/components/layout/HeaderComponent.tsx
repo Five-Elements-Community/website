@@ -6,7 +6,7 @@ const HeaderComponent: React.FunctionComponent = () => {
 
   return (
     <header className="sticky top-0 z-10 bg-black">
-      <nav className="container mx-auto flex flex-wrap items-center justify-between py-3 px-5 text-xl text-white bg-black">
+      <nav className="container mx-auto flex flex-wrap items-center justify-between py-3 text-xl text-white bg-black">
         <div>Five Elements Token</div>
         <svg
           xmlns="<http://www.w3.org/2000/svg>"
