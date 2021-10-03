@@ -1,15 +1,14 @@
 import React from 'react';
-import '../layout/footer.scss';
 import { TwitterComponent, RedditComponent, TelegramComponent, DiscordComponent, GithubComponent } from '../social-media/SocialMediaComponents';
 
 const FooterComponent: React.FunctionComponent = () => (
-  <footer className="svgTest text-white">
+  <footer className="bg-nice-gray text-white">
     <div className="container mx-auto py-12">
       <aside className="flex flex-wrap items-center my-10 justify-center sm:justify-between">
         <div>
 
           <p>
-            Five elements token is powered <br />
+            The Five Elements Token is powered <br />
             by the community.
           </p>
         </div>

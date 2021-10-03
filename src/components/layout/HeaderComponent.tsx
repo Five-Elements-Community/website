@@ -27,7 +27,7 @@ const HeaderComponent: React.FunctionComponent = () => {
             </li>
             <li>
               <AnchorLink className="hover:underline" href="#gettoken">
-                Get token
+                Buy
               </AnchorLink>
             </li>
             <li>

@@ -1,9 +1,8 @@
 import React from 'react';
-import './community.scss';
 import { TwitterComponent, RedditComponent, TelegramComponent, DiscordComponent, GithubComponent } from '../social-media/SocialMediaComponents';
 
 const CommunityComponent: React.FunctionComponent = () => (
-  <div className="communityBackground">  
+  <div className="bg-nice-gray">  
     <div className="container mx-auto py-12 text-white">
       <p>Social</p>
       <hr className="progress" />

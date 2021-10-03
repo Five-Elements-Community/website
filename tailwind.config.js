@@ -34,11 +34,14 @@ module.exports = {
       'reddit': '#FF5700',
       'discord': '#7289da',
       'telegram': '#0088CC',
-      'github': '#333'      
+      'github': '#333',
+      'card-background': '#333',
+      'nice-gray': '#262626'     
     }),
     extend: {},
   },
   variants: {
+    transitionProperty: ['responsive', 'motion-safe', 'motion-reduce'],
     extend: {},
   }
 }

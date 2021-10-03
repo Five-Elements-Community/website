@@ -1,5 +1,4 @@
 import React from 'react';
-import './introduction.scss';
 import Orb from '../orb/OrbComponent';
 
 const IntroductionComponent: React.FunctionComponent = () => (
@@ -8,12 +7,12 @@ const IntroductionComponent: React.FunctionComponent = () => (
       <Orb />
       <div className="text-white">
         <h1 className="text-4xl sm:text-5xl font-semibold mb-10 text-center">
-          The five elements <br />
-          cardano token
+          Five Elements Token
         </h1>
-        <p>
-          Welcome to the five elements token, it is created by five friends which characters reflect five elements.
-          <br />A community driven token with limitless potential.
+        <p className="text-center">
+          Welcome to the Five Elements Token, a community driven token on the cardano blockchain with limitless potential. 
+          <br />
+          The token was created by five friends which characters reflect five elements.
         </p>
       </div>
     </div>
