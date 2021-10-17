@@ -2,7 +2,7 @@ import React from 'react';
 import Card from '../card/CardComponent';
 
 const EcoSystemComponent: React.FunctionComponent = () => (
-  <div className="bg-nice-gray">
+  <div className="bg-nice-black">
     <div className="container mx-auto py-12 text-white">
       <h1 className="font-semibold text-center my-10 text-4xl sm:text-5xl text-token">Ecosystem</h1>
       <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-4">

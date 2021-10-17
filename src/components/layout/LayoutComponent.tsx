@@ -4,7 +4,7 @@ import Header from './HeaderComponent';
 
 const LayoutComponent: React.FunctionComponent = ({ children }) => {
   return (
-    <div>
+    <div className="bg-nice-black">
       <Header />
       <main>{children}</main>
       <Footer />

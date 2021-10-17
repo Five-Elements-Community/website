@@ -39,6 +39,7 @@ module.exports = {
       'github': '#333',
       'card-background': '#333',
       'nice-gray': '#262626',
+      'nice-black': '#1c1e21',
       transparent: 'transparent',
       current: 'currentColor',
       black: colors.black,
